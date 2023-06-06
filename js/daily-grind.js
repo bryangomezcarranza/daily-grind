@@ -46,6 +46,14 @@ switch (today) {
 
     case 0:
         today = "Sunday";
+        coffee = {
+            name: "Pumpking Spice Latte",
+            color: "orange",
+            pic: "images/pumpkin-spice-latte.jpg",
+            alt: "A picture of a pumpkin spice latte",
+            day: "Monday",
+            desc: `I love me some pumpkin spice latte!`
+        }
         break;
 
     case 1:
@@ -77,9 +85,9 @@ switch (today) {
         coffee = {
             name: "Caramel Latte",
             color: "yellow",
-            pic: "images/caramel.latte.jpg",
+            pic: "images/caramel-latte.jpg",
             alt: "A picture of a Caramel Latte",
-            day: "Tuesday",
+            day: "Wednesday",
             desc: `Give it to me straight!`
         }
         break;
@@ -87,36 +95,36 @@ switch (today) {
     case 4:
         today = "Thursday";
         coffee = {
-            name: "Drip Coffee",
-            color: "black",
-            pic: "images/drip.jpg",
-            alt: "A picture of a drip coffee",
-            day: "Tuesday",
-            desc: `Give it to me straight!`
+            name: "Cold Brew",
+            color: "brown",
+            pic: "images/cold-brew.jpg",
+            alt: "A picture of a cold brew",
+            day: "Thursday",
+            desc: `Come join us and try our best home day cold brew!`
         }
         break;
 
     case 5:
         today = "Friday";
         coffee = {
-            name: "Drip Coffee",
-            color: "black",
-            pic: "images/drip.jpg",
-            alt: "A picture of a drip coffee",
-            day: "Tuesday",
-            desc: `Give it to me straight!`
+            name: "Friday Frappaccino",
+            color: "white",
+            pic: "images/frappaccino.jpg",
+            alt: "A picture of a frappacino",
+            day: "Friday",
+            desc: `Come enjoy our frappacino on a warm day to refresh!`
         }
         break;
 
     case 6:
         today = "Saturday";
         coffee = {
-            name: "Drip Coffee",
-            color: "black",
-            pic: "images/drip.jpg",
-            alt: "A picture of a drip coffee",
-            day: "Tuesday",
-            desc: `Give it to me straight!`
+            name: "Mocha",
+            color: "lightblue",
+            pic: "images/mocha.jpg",
+            alt: "A picture of a mocha coffee",
+            day: "Saturday",
+            desc: `Come over and taste our delicious Mocha, made to you freshly!`
         }
         break;
 
